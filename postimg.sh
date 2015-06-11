@@ -10,3 +10,10 @@ OUTPUT=$BR_ROOT/output/target
 echo $CUST_FILES
 cp $CUST_FILES/profile $OUTPUT/etc/
 
+# copy bash.bashrc
+echo "Copying bash.bashrc"
+cp $CUST_FILES/bash.bashrc $OUTPUT/etc/
+
+# copy .bashrc
+echo "Copying .bashrc"
+cp $CUST_FILES/.bashrc $OUTPUT/root/
