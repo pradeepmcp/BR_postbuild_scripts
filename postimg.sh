@@ -7,13 +7,13 @@ CUST_FILES=$CUST_SCRIPT/customfiles
 OUTPUT=$BR_ROOT/output/target
 
 # copy profile
-echo $CUST_FILES
-cp $CUST_FILES/profile $OUTPUT/etc/
+#echo $CUST_FILES
+#cp $CUST_FILES/profile $OUTPUT/etc/
 
 # copy bash.bashrc
-echo "Copying bash.bashrc"
-cp $CUST_FILES/bash.bashrc $OUTPUT/etc/
+#echo "Copying bash.bashrc"
+#cp $CUST_FILES/bash.bashrc $OUTPUT/etc/
 
 # copy .bashrc
-echo "Copying .bashrc"
-cp $CUST_FILES/.bashrc $OUTPUT/root/
+#echo "Copying .bashrc"
+#cp $CUST_FILES/.bashrc $OUTPUT/root/
