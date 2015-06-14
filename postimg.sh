@@ -6,9 +6,11 @@ CUST_SCRIPT=$BR_ROOT/postimgscripts
 CUST_FILES=$CUST_SCRIPT/customfiles
 OUTPUT=$BR_ROOT/output/target
 
+echo $CUST_FILES
+
 # copy profile
-#echo $CUST_FILES
-#cp $CUST_FILES/profile $OUTPUT/etc/
+echo "Copying /etc/profile"
+cp $CUST_FILES/profile $OUTPUT/etc/
 
 # copy bash.bashrc
 #echo "Copying bash.bashrc"
